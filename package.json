@@ -1,0 +1,15 @@
+{
+  "name": "kafka-testing",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "consumer": "KAFKA_TOPIC=kafka-test-topic KAFKA_URL=kafka://192.168.99.100:9092 node consumer.js",
+    "producer": "KAFKA_TOPIC=kafka-test-topic KAFKA_URL=kafka://192.168.99.100:9092 node producer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "no-kafka": "^3.1.7"
+  }
+}
